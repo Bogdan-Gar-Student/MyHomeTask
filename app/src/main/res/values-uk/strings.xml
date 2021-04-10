@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">МоєДомашнєЗавдання</string>
+    <string name="choose_button">Вибирайте</string>
+    <string name="share_button">Поділіться</string>
+    <string name="static_text">Статичний текст</string>
+    <string name="count_initial_value">0</string>
+</resources>

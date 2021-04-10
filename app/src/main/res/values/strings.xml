@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyHomeTask</string>
+    <string name="choose_button">Choose</string>
+    <string name="share_button">Share</string>
+    <string name="static_text">Static Text</string>
+    <string name="count_initial_value">0</string>
+</resources>
