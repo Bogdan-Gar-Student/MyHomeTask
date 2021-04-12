@@ -1,4 +1,5 @@
 <resources>
+    <!--TODO Suggest you to use resource prefixes for simplified navigation and resource reuse: title_, message_, error, etc. -->
     <string name="app_name">MyHomeTask</string>
     <string name="choose_button">Choose</string>
     <string name="share_button">Share</string>

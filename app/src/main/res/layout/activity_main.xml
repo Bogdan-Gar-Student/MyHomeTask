@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--  TODO Read about constraints in constraintLayout. Try different orientation in the editor to see the result of your work  -->
+    <!--For now this will work ONLY for some phone screens and ONLY in portrait.-->
+    <!-- You should specify constraints to different views, not large margins  -->
     <Button
         android:id="@+id/choose"
         android:layout_width="wrap_content"

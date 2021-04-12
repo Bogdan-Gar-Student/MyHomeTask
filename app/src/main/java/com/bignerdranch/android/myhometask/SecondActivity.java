@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SecondActivity extends AppCompatActivity {
 
+    // TODO: 4/12/21 You had to place this into resources in order to have translation.
     private String[] strTmp = { "Первая строка", "Вторая строка", "Третья строка", "Четвертая строка", "Пятая строка"};
     private String MESSAGE;
 
@@ -31,6 +32,8 @@ public class SecondActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id)
             {
                 MESSAGE = strTmp[position];
+
+                // TODO: 4/12/21 Avoid hardcode
                 intent.putExtra("our_message", MESSAGE);
                 startActivity(intent);
             }
